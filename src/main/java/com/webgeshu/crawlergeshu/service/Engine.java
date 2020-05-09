@@ -36,7 +36,6 @@ public class Engine {
 				doc= Jsoup.connect(p.getPivot()).get();
 				Elements links= doc.select("a[href]");
 				for(Element link : links) {
-					//System.out.println(link.attr("href"));
 					urls.add(new Pivot(link.attr("href")));
 				}
 			}catch(IOException e) {
