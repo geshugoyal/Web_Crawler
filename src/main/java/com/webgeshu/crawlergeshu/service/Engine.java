@@ -29,13 +29,10 @@ public class Engine {
 		List<Pivot> urls= new ArrayList<>();
 		
 		for(Pivot p: this.pivotList) {
-			//System.out.println("geshu sdxcfgvbhnj");
 
 			Document doc;
 			
 			try {
-				//System.out.println("geshu jhgf");
-
 				doc= Jsoup.connect(p.getPivot()).get();
 				Elements links= doc.select("a[href]");
 				for(Element link : links) {
@@ -51,18 +48,13 @@ public class Engine {
 	
 	public List<PageContent> searchSubPivotContent(){
 		 List<PageContent> pages= new ArrayList<>();
-		 //System.out.println("geshu dfgbh 1234");
 		 List<Pivot> pivots= this.searchSubPivot();
-		 //System.out.println("geshu mnhyhju");
 		
 		 for(Pivot p: pivots) {
-				//System.out.println("geshu dfgbh");
 
 			 Document doc;
 				
 				try {
-					//System.out.println("geshu lkjhgfv");
-
 					doc= Jsoup.connect(p.getPivot()).get();
 					String title=doc.title();
 					String content= doc.body().text();
