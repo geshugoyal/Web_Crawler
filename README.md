@@ -119,3 +119,7 @@ Here I have used only a few number of news websites url. Thye can be added or de
 11.)	Then the page displayed on to the browser to the admin will be as shown in the figure below. It will have a hyperlink to view the enteries into the database and a hyperlink to either move back back to the user displayed home page.
 
 12.)	To view the database the user clicks on View Database Url, and this will drop the admin to the Page displayed for the urls saved in database. Also, these urls displayed have the headlines and the date of saving displayed along with it. Moreover, including to it these urls have the access by the admin to be manually deleted if at some point of time it is required.
+
+
+![WebCrawler](https://user-images.githubusercontent.com/63814054/81506480-3bcad900-9314-11ea-914c-ab0e377984f4.jpg)
+
